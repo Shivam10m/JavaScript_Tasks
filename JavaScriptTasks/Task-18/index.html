@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - 8 JavaScript </title>
+    <style>
+        * {
+            padding-left: 10%;
+            margin: 10px;
+        }
+
+        input {
+            border-radius: 10px;
+            width: 200px;
+            height: 30px;
+        }
+
+        .btn {
+            width: 80px;
+            margin-left: 30%;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- create a form and validate it: email, contact, name, age,designation,select multiple files, DOB and submit form -->
+    <h1>Validating Form Using JavaScript</h1>
+    <form onsubmit="submitForm()" action="">
+
+        <label for="name">Name :</label>
+        <input type="text" id="name">
+        <br>
+
+        <label for="age">Age :</label>
+        <input type="number" id="age">
+        <br>
+
+        <label for="DOB">D.O.B :</label>
+        <input type="date" id="DOB">
+        <br>
+
+        <label for="contact">Contact :</label>
+        <input type="phone" id="contact">
+        <br>
+
+        <label for="email">E-Mail :</label>
+        <input type="email" id="email">
+        <br>
+
+        <label for="designation">Designation :</label>
+        <input type="text" id="designation">
+        <br>
+
+        <label for="files">Files :</label>
+        <input type="file" id="files">
+        <br>
+
+        <button class="btn" type="submit">submit</button>
+    </form>
+
+    <script src="./Script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - 9 JavaScript</title>
+</head>
+<body>
+    <button onclick="getUserData(displayData)">Enter Your Name</button>
+    <div id="output"></div>
+
+    <script>
+      function getUserData(callback) {
+        const name = prompt("Enter your name:");
+        if (name) {
+          callback(name); // call the callback with user input
+        } else {
+          callback("No name entered.");
+        }
+      }
+
+      function displayData(data) {
+        document.getElementById("output").innerText = "You entered: " + data;
+      }
+    </script>
+</body>
+</html>

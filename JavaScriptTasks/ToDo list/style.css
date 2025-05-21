@@ -1,0 +1,56 @@
+body{
+    background-image: url("./bg2.avif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: contain;
+
+}
+
+
+.container{
+    margin-left: 60%;
+    margin-top: 10%;
+    width: 500px;
+    height: 300px;
+}
+
+
+h1{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+input{
+    /* color: white; */
+    /* background-color: gray; */
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    margin-left: 110px;
+    border-radius: 10px;
+}
+
+/* input::placeholder{
+    color: white;
+} */
+
+
+button{
+    height: 45px;
+    width: 60px;
+    border-radius: 10px;  
+}
+
+button:hover{
+    color: white;
+    background-color: gray;
+}
+
+#toDoContainer{
+    color: white;
+    margin-left: 110px;
+}
+
